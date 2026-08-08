@@ -7,7 +7,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-primary mb-2">DeliveryBusiness</h3>
+            <div className="flex items-center gap-2 mb-2">
+              <img src="/logo.png" alt="DeliveryBusiness" className="h-8 w-8 object-contain" />
+              <h3 className="text-lg font-bold text-primary">DeliveryBusiness</h3>
+            </div>
             <p className="text-gray-600 text-sm">
               Simple digital ordering and customer communication.
             </p>

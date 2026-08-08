@@ -9,8 +9,9 @@ export default function Header() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-xl font-bold text-primary">
-            DeliveryBusiness
+          <Link to="/" className="flex items-center gap-3">
+            <img src="/logo.png" alt="DeliveryBusiness" className="h-10 w-10 object-contain" />
+            <span className="text-xl font-bold text-primary">DeliveryBusiness</span>
           </Link>
 
           {/* Desktop Navigation */}
